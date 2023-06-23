@@ -1,5 +1,5 @@
 "use client";
-import { Card,Divider,Subtitle,Text } from "@tremor/react";
+import { Card,Divider,Subtitle,Text } from "@tremor/react"
 import CityPicker from "@/components/CityPicker";
 
 export default function Home() {
