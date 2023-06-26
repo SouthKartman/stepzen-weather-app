@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen p-10 flex flex-col-1 bg-gradient-to-br justify-center items-center from-[#b552e4] to-pink-500 ">
       
       <Card className="bg-white mx-auto rounded-lg max-w-4xl">
-        <Text className="text-6xl text-gray-600 font-bold text-center mb-4 ">
+        <Text className="text-6xl max-[520px]:text-xl text-gray-600 font-bold text-center mb-4 ">
             Weather AI
         </Text>
         <Subtitle className="text-l text-slate-400 font-medium text-center">Сделано на базе OpenAI,Next.js 13.3,Tailwind.css, Tremor, StepZen, GraphQL и API Open-Meteo</Subtitle>

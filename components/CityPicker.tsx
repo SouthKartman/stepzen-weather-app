@@ -1,7 +1,11 @@
+"use client"
+
 import {Country, City} from "country-state-city";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Select from "react-select";
+import {GlobeIcon} from "@heroicons/react/solid";
+
 
 type option = {
     value:{
@@ -43,15 +47,18 @@ export default function CityPicker (){
         setSelectedCountry(option);
         setSelectedCity(null);
     }
-    return <div>
-            <div>
-                <label htmlFor="country"></label>
+    return <div className="space-y-4" >
+                <div className="flex flex-wrap justify-start text-white/80 ">
+                    <GlobeIcon className=" space-x-3 w-5 h-5 text-white"></GlobeIcon>
+                    <label htmlFor="country" className="text-white ml-1 font-medium">Страна</label>
+                </div>
+                    <Select 
+                        className=""
+                        value={selectedCountry} 
+                        options={options}
+                        onChange={handleSelectedCountry}
+                    />
             </div>
-                <Select 
-                    className="text-black"
-                    value={selectedCountry} 
-                    options={options}
-                    onChange={handleSelectedCountry}
-                />
-            </div>
+
+            //https://www.youtube.com/watch?v=DS5TZCn-pk8&t=2195s&ab_channel=SonnySangha - 45:36mm
 }
