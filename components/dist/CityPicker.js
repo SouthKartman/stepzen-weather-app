@@ -6,7 +6,6 @@ var react_1 = require("react");
 var navigation_1 = require("next/navigation");
 var react_select_1 = require("react-select");
 var solid_1 = require("@heroicons/react/solid");
-var solid_2 = require("@heroicons/react/solid");
 var options = country_state_city_1.Country.getAllCountries().map(function (Country) { return ({
     value: {
         latitude: Country.latitude,
@@ -31,12 +30,11 @@ function CityPicker() {
     return (React.createElement("div", { className: "space-y-4" },
         React.createElement("div", { className: "space-y-3" },
             React.createElement("div", { className: "flex flex-wrap py-2 justify-start text-white/80 " },
-                React.createElement(solid_1["default"], { className: "w-24 h-20" }),
                 React.createElement("label", { htmlFor: "country", className: "text-white ml-1 font-medium" }, "\u0421\u0442\u0440\u0430\u043D\u0430")),
             React.createElement(react_select_1["default"], { className: "", value: selectedCountry, options: options, onChange: handleSelectedCountry })),
         selectedCountry && (React.createElement("div", { className: "space-y-3" },
             React.createElement("div", { className: "flex flex-wrap py-2 justify-start text-white/80 " },
-                React.createElement(solid_2.HomeIcon, { className: " space-x-3 w-5 h-5 text-white" }),
+                React.createElement(solid_1.HomeIcon, { className: " space-x-3 w-5 h-5 text-white" }),
                 React.createElement("label", { htmlFor: "country", className: "text-white ml-1 font-medium" }, "\u0413\u043E\u0440\u043E\u0434")),
             React.createElement(react_select_1["default"], { className: "", value: selectedCity, onChange: handleSelectedCity, options: (_a = country_state_city_1.City.getCitiesOfCountry(selectedCountry.value.isoCode)) === null || _a === void 0 ? void 0 : _a.map(function (state) { return ({
                     value: {
@@ -48,6 +46,6 @@ function CityPicker() {
                     },
                     label: state.name
                 }); }) })))));
-    //https://www.youtube.com/watch?v=DS5TZCn-pk8&t=2195s&ab_channel=SonnySangha - 45:36mm
+    //https://www.youtube.com/watch?v=DS5TZCn-pk8&t=2195s&ab_channel=SonnySangha - 1:25:40
 }
 exports["default"] = CityPicker;

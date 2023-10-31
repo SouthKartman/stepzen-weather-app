@@ -105,5 +105,5 @@ export default function CityPicker (){
              </div>
     );
 
-            //https://www.youtube.com/watch?v=DS5TZCn-pk8&t=2195s&ab_channel=SonnySangha - 45:36mm
+            //https://www.youtube.com/watch?v=DS5TZCn-pk8&t=2195s&ab_channel=SonnySangha - 1:25:40
 }

@@ -1,0 +1,80 @@
+
+
+// Запрос
+
+// query MyQuery {
+//     myQuery(
+//       current: ""
+//       daily: ""
+//       hourly: ""
+//       latitude: ""
+//       longitude: ""
+//       timezone: ""
+//     ) {
+//       current {
+//         is_day
+//         temperature_2m
+//         weathercode
+//         time
+//         windspeed_10m
+//       }
+//       elevation
+//       generationtime_ms
+//       daily {
+//         apparent_temperature_max
+//         apparent_temperature_min
+//         sunrise
+//         sunset
+//         temperature_2m_max
+//         temperature_2m_min
+//         time
+//         uv_index_clear_sky_max
+//         uv_index_max
+//         weathercode
+//       }
+//       daily_units {
+//         apparent_temperature_max
+//         apparent_temperature_min
+//         sunrise
+//         sunset
+//         temperature_2m_max
+//         temperature_2m_min
+//         time
+//         uv_index_clear_sky_max
+//         uv_index_max
+//         weathercode
+//       }
+//       latitude
+//       longitude
+//       timezone
+//       timezone_abbreviation
+//       utc_offset_seconds
+//       hourly {
+//         apparent_temperature
+//         precipitation
+//         precipitation_probability
+//         rain
+//         relativehumidity_2m
+//         showers
+//         snowfall
+//         temperature_2m
+//         time
+//         uv_index
+//         uv_index_clear_sky
+//         windgusts_10m
+//       }
+//       hourly_units {
+//         apparent_temperature
+//         precipitation
+//         precipitation_probability
+//         showers
+//         snowfall
+//         snow_depth
+//         temperature_2m
+//         time
+//         uv_index
+//         uv_index_clear_sky
+//         windgusts_10m
+//       }
+//     }
+//   }
