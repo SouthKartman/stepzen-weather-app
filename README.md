@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/SouthKartman/stepzen-weather-app/assets/93534577/eff2a590-6d90-4760-a9cc-d59110aad683)This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -32,5 +32,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+![image](https://github.com/SouthKartman/stepzen-weather-app/assets/93534577/f63d8d37-072c-4b2a-9853-ae3bec5ef79c)
+
+![image](https://github.com/SouthKartman/stepzen-weather-app/assets/93534577/e4f15c33-6016-428b-951f-7787d2ff1179)
+
+![image](https://github.com/SouthKartman/stepzen-weather-app/assets/93534577/77ae7c4c-3869-4383-85b0-dc769198d794)
+
+
 
 develope video https://www.youtube.com/watch?v=DS5TZCn-pk8&ab_channel=SonnySangha by SonnySangha
