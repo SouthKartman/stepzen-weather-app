@@ -1,4 +1,6 @@
-![image](https://github.com/SouthKartman/stepzen-weather-app/assets/93534577/eff2a590-6d90-4760-a9cc-d59110aad683)This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/SouthKartman/stepzen-weather-app/assets/93534577/77ae7c4c-3869-4383-85b0-dc769198d794) 
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
