@@ -4,7 +4,7 @@ const fetchWeatherQuery = gql`
 
 
 
-query MyQuery (
+query fetchWeatherQuery (
 
     $current_weather:String
     $daily: String = "weathercode, temperature_2m_max, temperature_2m_min, apparent_temperature_max, apparent_temperature_min, sunrise, sunset, uv_index_max, uv_index_clear_sky_max"
@@ -15,7 +15,7 @@ query MyQuery (
 )
 {
     
-    myQuery(
+  fetchWeatherQuery(
       current: $current_weather
       daily: $daily
       hourly: $hourly
@@ -90,7 +90,7 @@ query MyQuery (
         time
         uv_index
         uv_index_clear_sky
-        windgusts_10m
+        windgusts_10m 
       
       }
     }

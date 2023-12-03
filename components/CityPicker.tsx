@@ -5,7 +5,6 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Select from "react-select";
 import GlobeIcon from "@heroicons/react/solid";
-
 import {HomeIcon} from "@heroicons/react/solid";
 
 
@@ -68,7 +67,7 @@ export default function CityPicker (){
                     <label htmlFor="country" className="text-white ml-1 font-medium">Страна</label>
                 </div>
                     <Select 
-                        className=""
+                        className="text-black"
                         value={selectedCountry} 
                         options={options}
                         onChange={handleSelectedCountry}
@@ -81,7 +80,7 @@ export default function CityPicker (){
                          <label htmlFor="country" className="text-white ml-1 font-medium">Город</label>
                      </div>
                          <Select 
-                             className=""
+                             className="text-black"
                              value={selectedCity} 
                              onChange={handleSelectedCity}
 
@@ -105,5 +104,5 @@ export default function CityPicker (){
              </div>
     );
 
-            //https://www.youtube.com/watch?v=DS5TZCn-pk8&t=2195s&ab_channel=SonnySangha - 1:25:40
+            //https://www.youtube.com/watch?v=DS5TZCn-pk8&t=2195s&ab_channel=SonnySangha - 2:13:40
 }
